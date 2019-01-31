@@ -22,7 +22,7 @@ namespace CreatingTxtFiles
                 string fileName = DateTime.Now.ToString("yyyy-MM-dd") + "_LOG";
                 fileName = fileName.Replace("-", "_");
 
-                path = @"C:\Users\rvargas\Desktop\FolderProject\" + fileName + ".txt";
+                path = @"C:\Users\patovega\Desktop\FolderProject\" + fileName + ".txt";
 
                 if (!System.IO.File.Exists(path))
                 {    //if file dont exist then create the file log
