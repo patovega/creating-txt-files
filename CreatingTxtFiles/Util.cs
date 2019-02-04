@@ -26,7 +26,7 @@ namespace CreatingTxtFiles
 
                 if (!System.IO.File.Exists(path))
                 {    //if file dont exist then create the file log
-                    System.IO.File.Create(path);
+                    System.IO.File.Create(path).Close();
                 }
             }
             catch (Exception ex)
